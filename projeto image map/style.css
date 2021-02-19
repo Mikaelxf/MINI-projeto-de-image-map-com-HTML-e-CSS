@@ -1,0 +1,61 @@
+body {
+    background-image: url('fundo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+  P {
+    color: yellowgreen;
+    font-style: italic;
+    font-weight: 500%;
+    text-align: center;
+    font-family: 200px;
+    font-size: 200%;
+  }
+
+  IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    
+  }
+
+  h2 {
+    text-align: center;
+    color: darkgoldenrod;
+    font-size: 30px;
+  }
+
+  p.cit {
+    color: rgb(255, 191, 0);
+    text-align: left;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  a:link {
+    color:#ff0000;
+    text-decoration:none;
+  }
+  a:visited {
+    color:rgba(213, 165, 19, 0.64);
+    text-decoration:none;
+  }
+  a:hover {
+    color:rgb(255, 191, 0);
+    text-decoration:underline;
+  }
+  a:active {
+    color:rgba(235, 180, 16, 0.811);
+    text-decoration:underline;
+    background-color:#000000;
+  }
+
+  p.cred {
+      color: rgba(235, 180, 16, 0.811);
+      text-align: right;
+      font-size: 15px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
